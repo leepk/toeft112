@@ -25,7 +25,7 @@ jobs:
         run: |
           docker build \
             -t ${{ secrets.DOCKER_USERNAME }}/toeft112-web:latest \
-            ./FrontEnd/acuherb-claim
+            .
 
       - name: Push Image
         run: |
